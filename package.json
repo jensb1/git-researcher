@@ -1,0 +1,14 @@
+{
+  "name": "git-researcher",
+  "version": "0.1.0",
+  "description": "AI-driven autonomous research system powered by Claude",
+  "scripts": {
+    "start": "bun run src/orchestrator.ts",
+    "phase1": "bun run src/phase1-researcher.ts",
+    "phase2": "bun run src/orchestrator.ts --skip-phase1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.3.11"
+  }
+}
