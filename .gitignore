@@ -3,3 +3,5 @@ bun.lock
 .DS_Store
 output/
 !output/.gitkeep
+!output/results/
+data/
